@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #f6c6cc, #20547e);
+}
+
+#logo {
+    position: relative;
+    width: 300px;
+    aspect-ratio: 1000 / 556;
+    user-select: none;
+}
+
+#logo > img {
+    width: 100%;
+    position: absolute;
+}
